@@ -1,4 +1,4 @@
-package springBoot.project.stockTrackingSystem;
+package ros;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

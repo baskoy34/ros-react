@@ -26,42 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf8e2ac9-2770-4c02-9c55-c9eab464f32e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Ros.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/BasketProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/CompanyCustomize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Desk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Errand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/BasketProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/BasketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/CompanyCustomizeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/DeskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/ErrandRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/StoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/services/IGenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/test/java/springBoot/project/stockTrackingSystem/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/UserService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/test/java/springBoot/project/stockTrackingSystem/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/test/java/ros/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +91,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -129,7 +100,27 @@
       <recent name="C:\Users\Volkan Can\Desktop\ddddd\ms-config-server\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsDiscoveryApplication">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ros.Application" />
+      <module name="UserService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ros.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="UserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ros.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="msconfigserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ros.ros.MsConfigServerApplication" />
@@ -151,6 +142,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,7 +160,8 @@
       <updated>1594033505632</updated>
       <workItem from="1594033506967" duration="1927000" />
       <workItem from="1594037025441" duration="286000" />
-      <workItem from="1594037327522" duration="60000" />
+      <workItem from="1594037327522" duration="510000" />
+      <workItem from="1594037868942" duration="277000" />
     </task>
     <servers />
   </component>
@@ -172,14 +169,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="162" key="SettingsEditor" timestamp="1594037312723">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594038147282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037312723" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594037327565">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594038147282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037327565" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594038147282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594038147282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1594037950342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037950342" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594037869529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037869529" />
   </component>
   <component name="masterDetails">
     <states>
