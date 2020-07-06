@@ -9,8 +9,8 @@ spring:
       server:
         native:
           search-locations:
-            file://PATH_TO_MICROSERVICES_PROJECT/ms-config-properties/{application}/{profile},
-            file://PATH_TO_MICROSERVICES_PROJECT/ms-config-properties/global/{profile}
+            C:/Users/Volkan Can/Desktop/ddddd/ms-config-properties/{application}/{profile},
+            C:/Users/Volkan Can/Desktop/ddddd/ms-config-properties/global/{profile}
 ---
 spring:
   profiles: git
@@ -18,7 +18,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/isilona/microservices/
+          uri: https://github.com/baskoy34/ROS/
           search-paths:
             - "ms-config-properties/{application}/{profile}"
             - "ms-config-properties/global/{profile}"
