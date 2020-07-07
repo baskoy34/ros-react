@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ms-discovery" />
+        <module name="msconfigserver" />
         <module name="UserService" />
         <module name="ms-gateway" />
         <module name="ms-config-server" />
         <module name="msdiscovery" />
-        <module name="msconfigserver" />
+        <module name="ms-discovery" />
       </profile>
     </annotationProcessing>
   </component>

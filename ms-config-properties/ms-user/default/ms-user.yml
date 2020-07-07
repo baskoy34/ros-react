@@ -1,12 +1,16 @@
 spring:
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+
   datasource:
-    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    username: sa
-    password:
+    driverClassName : com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/restaurantorderingsystem?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+    password: 1234
+  jpa:
+    properties:
+      hibernate.dialect : org.hibernate.dialect.MySQL5InnoDBDialect
+      hibernate.ddl-auto : update
+
+
 security:
   basic:
     enabled: false
