@@ -26,6 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf8e2ac9-2770-4c02-9c55-c9eab464f32e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/BasketDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/BasketProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/CompanyCustomizeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/CompanyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/DeskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/ErrandDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/PersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/StoreDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/services/CompanyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +104,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UserService/src/main/java/ros/deneme" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -99,6 +115,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guray\Desktop\ROS\UserService\src\main\java\ros\deneme" />
+      <recent name="C:\Users\guray\Desktop\ROS\UserService\src\main\java" />
       <recent name="C:\Users\guray\Desktop\Ros\UserService" />
       <recent name="C:\Users\Volkan Can\Desktop\ddddd\ms-config-server\src\main\resources" />
     </key>
@@ -199,6 +217,8 @@
       <workItem from="1594195511645" duration="767000" />
       <workItem from="1594196297378" duration="816000" />
       <workItem from="1594231501220" duration="884000" />
+      <workItem from="1594232599594" duration="807000" />
+      <workItem from="1594233427681" duration="73000" />
     </task>
     <servers />
   </component>
@@ -206,6 +226,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1594233232407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233232407" />
+    <state x="749" y="379" width="421" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594233038039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="379" width="421" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233038039" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594233005533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233005533" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594140750016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,10 +291,10 @@
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037950342" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594140790450" />
-    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594231502317">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594233428847">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594195511607" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233428846" />
     <state x="2576" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594231502317" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594140535109" />
   </component>
