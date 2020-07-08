@@ -197,7 +197,8 @@
       <workItem from="1594140533328" duration="227000" />
       <workItem from="1594140771960" duration="388000" />
       <workItem from="1594195511645" duration="767000" />
-      <workItem from="1594196297378" duration="731000" />
+      <workItem from="1594196297378" duration="816000" />
+      <workItem from="1594231501220" duration="884000" />
     </task>
     <servers />
   </component>
@@ -258,10 +259,11 @@
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037950342" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594140790450" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594195511607">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594231502317">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594195511607" />
+    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594231502317" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594140535109" />
   </component>
   <component name="masterDetails">
