@@ -39,6 +39,7 @@ spring:
             - "ms-config-properties/global/{profile}"
     profiles:
       active: native
+
 management:
   security:
     enabled: false

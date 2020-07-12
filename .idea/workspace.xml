@@ -26,6 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf8e2ac9-2770-4c02-9c55-c9eab464f32e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -41,12 +42,32 @@
     <ignored path="$PROJECT_DIR$/Management/target/" />
     <ignored path="$PROJECT_DIR$/ms-auth-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/BasketDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/BasketProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/CompanyCustomizeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/CompanyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/DeskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/ErrandDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/PersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/StoreDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/repositorys/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/ros/services/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
+<<<<<<< HEAD
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
@@ -146,10 +167,15 @@
         </entry>
       </file>
     </leaf>
+=======
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -162,6 +188,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -189,6 +216,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -197,6 +226,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -270,10 +300,31 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+=======
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/ms-config-server/msconfigserver.iml" />
+        <option value="$PROJECT_DIR$/ms-discovery/msdiscovery.iml" />
+        <option value="$PROJECT_DIR$/UserService/UserService.iml" />
+        <option value="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eJQ3ucajgAAHCRiHxzHGLLUtsO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
   <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -281,39 +332,41 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ms-auth-server/src/main/java" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UserService/src/main/java/ros/deneme" />
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+=======
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\Volkan Can\Desktop\ros-app\ms-auth-server\src\main\java" />
       <recent name="C:\Users\Volkan Can\Desktop\ros-app\Management\src\main\java" />
+=======
+      <recent name="C:\Users\guray\Desktop\ROS\UserService\src\main\java\ros\deneme" />
+      <recent name="C:\Users\guray\Desktop\ROS\UserService\src\main\java" />
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
       <recent name="C:\Users\guray\Desktop\Ros\UserService" />
       <recent name="C:\Users\Volkan Can\Desktop\ddddd\ms-config-server\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ros.Application" />
       <module name="UserService" />
@@ -354,6 +407,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MsConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msconfigserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ros.ros.MsConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsDiscoveryApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ms-discovery" />
       <extension name="coverage">
@@ -367,6 +427,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MsDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msdiscovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ros.ros.MsDiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ms-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ros.ros.MsGatewayApplication" />
@@ -374,6 +441,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="Spring Boot.Application" />
@@ -382,11 +450,13 @@
       <item itemvalue="Spring Boot.MsDiscoveryApplication (1)" />
       <item itemvalue="Spring Boot.MsAuthServerApplication" />
     </list>
+=======
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Spring Boot.MsConfigServerApplication (1)" />
         <item itemvalue="Spring Boot.MsDiscoveryApplication (1)" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -404,12 +474,18 @@
       <workItem from="1594037025441" duration="286000" />
       <workItem from="1594037327522" duration="510000" />
       <workItem from="1594037868942" duration="277000" />
-      <workItem from="1594050439610" duration="3354000" />
-      <workItem from="1594069339855" duration="1275000" />
-      <workItem from="1594126916704" duration="3092000" />
+      <workItem from="1594140272101" duration="171000" />
+      <workItem from="1594140533328" duration="227000" />
+      <workItem from="1594140771960" duration="388000" />
+      <workItem from="1594195511645" duration="767000" />
+      <workItem from="1594196297378" duration="816000" />
+      <workItem from="1594231501220" duration="884000" />
+      <workItem from="1594232599594" duration="807000" />
+      <workItem from="1594233427681" duration="73000" />
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="18247000" />
   </component>
@@ -453,33 +529,81 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
+=======
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594038147282">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1594233232407">
       <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233232407" />
+    <state x="749" y="379" width="421" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594233038039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="379" width="421" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233038039" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594233005533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233005533" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594140750016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594140750016" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594195829434">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594038147282">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195829434" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594195829434">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594038147282">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195829434" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594195829434">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594038147282">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195829434" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594195829434">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594038147282" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1594037950342">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195829434" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162823" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1594195827249">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195827249" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162824" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1594195827249">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195827249" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162824" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1594195827249">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195827249" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162823" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1594195827249">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594195827249" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594141162824" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1594140790450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037950342" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594037869529">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594140790450" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594233428847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+<<<<<<< HEAD
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594037869529" />
   </component>
   <component name="editorHistoryManager">
@@ -1157,32 +1281,14 @@
         </state>
       </provider>
     </entry>
+=======
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594233428846" />
+    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594231502317" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594140535109" />
+>>>>>>> d1ed9a94c806d32eb60184011ccedf787cf2010c
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1200,19 +1306,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>UserService</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1242,8 +1335,5 @@
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="$PROJECT_DIR$" />
   </component>
 </project>
