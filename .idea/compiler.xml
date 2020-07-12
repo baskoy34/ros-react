@@ -8,19 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="msconfigserver" />
         <module name="UserService" />
+        <module name="msauthserver" />
         <module name="ms-gateway" />
         <module name="ms-config-server" />
         <module name="msdiscovery" />
+        <module name="Management" />
         <module name="ms-discovery" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Management" options="-parameters" />
       <module name="UserService" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
       <module name="ms-discovery" options="-parameters" />
       <module name="ms-gateway" options="-parameters" />
+      <module name="msauthserver" options="-parameters" />
       <module name="msconfigserver" options="-parameters" />
       <module name="msdiscovery" options="-parameters" />
       <module name="service-parent" options="-parameters" />

@@ -21,6 +21,8 @@
         <module>UserService</module>
         <module>ms-gateway</module>
         <module>service-parent</module>
+        <module>Management</module>
+        <module>ms-auth-server</module>
     </modules>
 
     <properties>
