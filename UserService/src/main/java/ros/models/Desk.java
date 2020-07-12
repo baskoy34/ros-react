@@ -28,6 +28,9 @@ public class Desk {
 	
 	@Column(nullable = false)
 	private Integer deskNo;
+
+	@Column(nullable = false)
+	private boolean active;
 	
 	@Lob
 	@Column(nullable = false)
@@ -39,6 +42,4 @@ public class Desk {
 	
 	@OneToMany(mappedBy = "desk")
 	private List<Errand> errands;
-	
-	// Order
 }

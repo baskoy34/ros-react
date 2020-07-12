@@ -38,6 +38,9 @@ public class Product {
 	
 	@Column(nullable = false)
 	private double price;
+
+	@Column(nullable = false)
+	private boolean active;
 	
 	@Column(nullable = false)
 	private double vat;

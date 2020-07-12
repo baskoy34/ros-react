@@ -14,7 +14,6 @@ public class ProductDto {
 	private long id;
 
 	private String name;
-	
 
 	private String information;
 
@@ -23,6 +22,8 @@ public class ProductDto {
 	private double price;
 
 	private double vat;
+
+	private boolean active;
 
 	private CategoryDto category;
 

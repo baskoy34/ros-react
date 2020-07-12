@@ -5,7 +5,11 @@ import org.springframework.stereotype.Repository;
 
 import ros.models.Category;
 
+import java.util.List;
+
 @Repository
 public interface CategoryRepository  extends JpaRepository<Category, Long>{
+
+    List<Category> findAllByStore(long id);
 
 }
