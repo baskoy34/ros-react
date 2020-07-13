@@ -23,13 +23,7 @@ public class CompanyService implements IGenericService<CompanyDto> {
     }
 
     @Override
-    public Boolean delete(CompanyDto entity) {
-        return null;
-    }
-
-    @Override
-    public Boolean deleteById(long id) {
-        return null;
+    public void deleteById(long id) {
     }
 
     @Override

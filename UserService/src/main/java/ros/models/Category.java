@@ -27,6 +27,9 @@ public class Category {
 	
 	@Column(length = 75,nullable = false) 
 	private String name;
+
+	@Column(nullable = false)
+	private boolean active;
 	
 	@ManyToOne
 	@JoinColumn(nullable = false)

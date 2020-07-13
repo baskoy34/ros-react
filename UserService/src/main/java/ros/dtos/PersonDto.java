@@ -22,7 +22,7 @@ public class PersonDto {
 	private String email;
 
 	private Integer salary;
-	
-	
-	
+
+
+
 }

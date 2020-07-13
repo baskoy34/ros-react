@@ -6,14 +6,12 @@ public interface IGenericService <T> {
 	
 	T findById(long id);
 	
-	Boolean delete(T entity);
-	
-	Boolean deleteById(long id);
+	void deleteById(long id);
 	
 	T Update(T entity);
 	
-	List<T> findAll();
+	List<T> findAll(long id);
 	
-	T Add(T entity);
+	T Add(T entity) throws Exception;
 	
 }

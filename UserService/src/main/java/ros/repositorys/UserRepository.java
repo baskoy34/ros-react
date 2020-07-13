@@ -5,7 +5,12 @@ import org.springframework.stereotype.Repository;
 
 import ros.models.User;
 
+import java.util.List;
+
 @Repository
 public interface UserRepository  extends JpaRepository<User, Long>{
 
+    List<User> findByStore(long id);
+
+    List<User> findByStoreCompany(long id);
 }
