@@ -33,8 +33,6 @@ public class Product {
 	@Column(nullable = false)
 	private double vat;
 
-	@ManyToOne
-	@JoinColumn(nullable = false)
 	private String category;
 
 	public Product(String name, String information, String image, double price, double vat, String category) {

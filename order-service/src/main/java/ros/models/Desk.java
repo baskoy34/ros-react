@@ -24,8 +24,7 @@ public class Desk {
 	@Column(nullable = false)
 	private String qrCode;
 	
-	@ManyToOne
-	@JoinColumn(nullable = false)
+
 	private String store;
 	
 	@OneToMany(mappedBy = "desk")

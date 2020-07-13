@@ -22,11 +22,8 @@
 #          search-paths:
 #            - "ms-config-properties/{application}/{profile}"
 #            - "ms-config-properties/global/{profile}"
-server:
-  port: 8888
+
 spring:
-  application:
-    name: config-service
   cloud:
     config:
       server:
