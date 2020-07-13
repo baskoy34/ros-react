@@ -24,6 +24,7 @@
         <module>Management</module>
         <module>ms-auth-server</module>
         <module>order-service</module>
+        <module>Stock-Service</module>
     </modules>
 
     <properties>

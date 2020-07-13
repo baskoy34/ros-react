@@ -2,10 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+<<<<<<< HEAD
+=======
+      <profile default="true" name="Default" enabled="true" />
+>>>>>>> 6617042aab05a6ae5ba9401661a94512c1ac65f0
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+=======
+        <module name="Stock-Service" />
+>>>>>>> 6617042aab05a6ae5ba9401661a94512c1ac65f0
         <module name="UserService" />
         <module name="ms-gateway" />
         <module name="Management" />
@@ -45,12 +53,20 @@
       <module name="order-service" target="1.8" />
       <module name="ros-app" target="1.8" />
       <module name="service-parent" target="1.8" />
+<<<<<<< HEAD
+=======
+      <module name="Stock-Service" target="1.8" />
+>>>>>>> 6617042aab05a6ae5ba9401661a94512c1ac65f0
       <module name="UserService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Management" options="-parameters" />
+<<<<<<< HEAD
+=======
+      <module name="Stock-Service" options="-parameters" />
+>>>>>>> 6617042aab05a6ae5ba9401661a94512c1ac65f0
       <module name="UserService" options="-parameters" />
       <module name="ms-auth-server" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
