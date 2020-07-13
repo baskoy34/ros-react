@@ -11,7 +11,7 @@ import ros.models.Product;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-07-13T21:52:16+0300",
+    date = "2020-07-13T22:04:09+0300",
     comments = "version: 1.3.0.Beta2, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 @Component

@@ -7,7 +7,7 @@ import ros.models.Product;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-07-13T20:01:53+0300",
+    date = "2020-07-13T22:04:09+0300",
     comments = "version: 1.3.0.Beta2, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 @Component
@@ -20,6 +20,13 @@ public class ProductMapperImpl implements ProductMapper {
         }
 
         ProductDto productDto = new ProductDto();
+
+        productDto.setId( product.getId() );
+        productDto.setName( product.getName() );
+        productDto.setInformation( product.getInformation() );
+        productDto.setPrice( product.getPrice() );
+        productDto.setVat( product.getVat() );
+        productDto.setCategory( product.getCategory() );
 
         return productDto;
     }
