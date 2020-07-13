@@ -32,7 +32,7 @@ public class CompanyService implements IGenericService<CompanyDto> {
     }
 
     @Override
-    public List<CompanyDto> findAll() {
+    public List<CompanyDto> findAll(long id) {
         return null;
     }
 
