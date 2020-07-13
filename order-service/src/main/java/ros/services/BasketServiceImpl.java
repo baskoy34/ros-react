@@ -13,6 +13,8 @@ import ros.repositorys.BasketProductRepository;
 import ros.repositorys.BasketRepository;
 import ros.repositorys.ProductRepository;
 
+import java.util.Optional;
+
 @Service
 @RequiredArgsConstructor
 public class BasketServiceImpl implements BasketService {
@@ -29,16 +31,20 @@ public class BasketServiceImpl implements BasketService {
         //desk client çağır
         return null;
     }
+    public Optional<Basket>findById(Long id){
+        return basketRepository.findById(id);
+    }
 
     @Override
     public BasketDto addtoBasket(BasketProductDto basketProductDto) throws Exception {
 
-        Basket basket=basketRepository.findById(basketProductDto.getId()).orElseThrow(Exception::new);
+        Basket basket=basketRepository.findById(basketProductDto.getBasketId()).orElseThrow(Exception::new);
         //Product product=productRepository.findById(productId).orElseThrow(Exception::new);
         //call stock service if quantiy  ok
-        BasketProduct basketProduct=basketProductMapper.dtoToBasketProduct(basketProductDto);
-        basketProductRepository.save(basketProduct);
 
+       BasketProduct basketProduct=basketProductMapper.dtoToBasketProduct(basketProductDto);
+        System.out.println("ssses");
+        basketProductRepository.save(basketProduct);
         return null;
     }
 

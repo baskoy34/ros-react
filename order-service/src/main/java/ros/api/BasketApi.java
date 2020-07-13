@@ -12,8 +12,8 @@ import ros.services.BasketServiceImpl;
 @RequiredArgsConstructor
 public class BasketApi {
   private final   BasketServiceImpl basketService;
-    @PostMapping("/{id}")
-  public ResponseEntity<BasketDto>addToBasket(@PathVariable Long id, @RequestBody BasketProductDto basketProductDto){
+    @PostMapping()
+  public ResponseEntity<BasketDto>addToBasket(@RequestBody BasketProductDto basketProductDto){
       BasketDto basketDto =null;
       try {
            basketDto = basketService.addtoBasket(basketProductDto);

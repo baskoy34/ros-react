@@ -46,4 +46,5 @@ public class ProductDto {
 	public String getCategory() {
 		return category;
 	}
+
 }
