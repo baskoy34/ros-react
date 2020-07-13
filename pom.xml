@@ -23,6 +23,7 @@
         <module>service-parent</module>
         <module>Management</module>
         <module>ms-auth-server</module>
+        <module>order-service</module>
     </modules>
 
     <properties>

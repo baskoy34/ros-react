@@ -8,8 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/ms-config-server/ms-config-server.iml" filepath="$PROJECT_DIR$/ms-config-server/ms-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-discovery/ms-discovery.iml" filepath="$PROJECT_DIR$/ms-discovery/ms-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order-service/orderservice.iml" filepath="$PROJECT_DIR$/order-service/orderservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ros-app.iml" filepath="$PROJECT_DIR$/ros-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ros-app.iml" filepath="$PROJECT_DIR$/.idea/ros-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-parent/service-parent.iml" filepath="$PROJECT_DIR$/service-parent/service-parent.iml" />
     </modules>
   </component>
