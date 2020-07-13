@@ -21,7 +21,7 @@ public class StoreDto {
 
 	private Boolean active;
 
-	private CompanyDto company;
+	private long companyId;
 
 	private List<DeskDto> desks;
 

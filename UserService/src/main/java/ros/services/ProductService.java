@@ -19,13 +19,13 @@ public class ProductService implements IGenericService<ProductDto>{
     private ProductRepository productRepository;
 
     @Override
-    public ProductDto findById(long id) {
+    public ProductDto findById(Long id) {
         // unnecessary
         return null;
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         Product product = productRepository.findById(id).get();
         if (product != null){
             product.setActive(false);
@@ -42,7 +42,7 @@ public class ProductService implements IGenericService<ProductDto>{
     }
 
     @Override
-    public List<ProductDto> findAll(long id) {
+    public List<ProductDto> findAll(Long id) {
         List<Product> products = productRepository.findByCategory(id);
         List<ProductDto> productDtos = new ArrayList<ProductDto>();
 

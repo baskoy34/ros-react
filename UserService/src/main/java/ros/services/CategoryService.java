@@ -23,7 +23,7 @@ public class CategoryService implements IGenericService<CategoryDto> {
 
 
     @Override
-    public CategoryDto findById(long id) throws ErrorHandling{
+    public CategoryDto findById(Long id) throws ErrorHandling{
         try{
             Category category = categoryRepository.findById(id).get();
             if(category != null)
@@ -37,7 +37,7 @@ public class CategoryService implements IGenericService<CategoryDto> {
     }
 
     @Override
-    public void deleteById(long id) throws ErrorHandling {
+    public void deleteById(Long id) throws ErrorHandling {
         try{
             Category category = categoryRepository.findById(id).get();
             if(category != null){
@@ -64,7 +64,7 @@ public class CategoryService implements IGenericService<CategoryDto> {
     }
 
     @Override
-    public List<CategoryDto> findAll(long id) throws ErrorHandling{
+    public List<CategoryDto> findAll(Long id) throws ErrorHandling{
         try {
             List<Category> categories = categoryRepository.findAllByStore(id);
             List<CategoryDto> categoryDtos = new ArrayList<CategoryDto>();
