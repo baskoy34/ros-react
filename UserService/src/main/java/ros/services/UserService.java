@@ -7,6 +7,7 @@ import ros.dtos.UserDto;
 import ros.models.User;
 import ros.repositorys.UserRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -49,8 +50,25 @@ public class UserService implements IGenericService<UserDto> {
 
     @Override
     public List<UserDto> findAll(long id) {
-        //---------------------------------
         return null;
+    }
+
+    public List<UserDto> findAllUserStore(long storeId) {
+        List<User> users = userRepository.findByStore(storeId);
+        List<UserDto> userDtos = new ArrayList<>();
+        for (User user : users){
+            userDtos.add(modelMapper.map(user,UserDto.class));
+        }
+        return userDtos;
+    }
+
+    public List<UserDto> findAllUserCompany(long companyId) {
+        List<User> users = userRepository.findByStoreCompany(companyId);
+        List<UserDto> userDtos = new ArrayList<>();
+        for (User user : users){
+            userDtos.add(modelMapper.map(user,UserDto.class));
+        }
+        return userDtos;
     }
 
     @Override
