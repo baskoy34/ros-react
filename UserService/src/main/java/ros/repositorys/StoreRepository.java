@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface StoreRepository  extends JpaRepository<Store, Long>{
 
-    List<Store> findByCompany(long id);
+    List<Store> findByCompany(Long id);
 
 }

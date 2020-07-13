@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface DeskRepository  extends JpaRepository<Desk, Long>{
 
-    List<Desk> findAllByStore(long id);
+    List<Desk> findAllByStore(Long id);
 
 }

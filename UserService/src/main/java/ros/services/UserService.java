@@ -21,7 +21,7 @@ public class UserService implements IGenericService<UserDto> {
 
 
     @Override
-    public UserDto findById(long id) {
+    public UserDto findById(Long id) {
         User user = userRepository.findById(id).get();
         if(user != null){
             return modelMapper.map(user,UserDto.class);
@@ -31,7 +31,7 @@ public class UserService implements IGenericService<UserDto> {
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         User user = userRepository.findById(id).get();
         if(user != null){
             user.setActive(false);
@@ -49,7 +49,7 @@ public class UserService implements IGenericService<UserDto> {
     }
 
     @Override
-    public List<UserDto> findAll(long id) {
+    public List<UserDto> findAll(Long id) {
         return null;
     }
 

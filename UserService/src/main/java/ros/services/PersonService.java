@@ -20,7 +20,7 @@ public class PersonService implements IGenericService<PersonDto>{
 
 
     @Override
-    public PersonDto findById(long id) {
+    public PersonDto findById(Long id) {
         Person person = personRepository.findById(id).get();
         if(person != null)
             return modelMapper.map(person,PersonDto.class);
@@ -29,7 +29,7 @@ public class PersonService implements IGenericService<PersonDto>{
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         //User Active Close To Delete
     }
 
@@ -41,7 +41,7 @@ public class PersonService implements IGenericService<PersonDto>{
     }
 
     @Override
-    public List<PersonDto> findAll(long id) {
+    public List<PersonDto> findAll(Long id) {
         // User List
         return null;
     }

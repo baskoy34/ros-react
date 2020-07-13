@@ -6,13 +6,13 @@ import java.util.List;
 
 public interface IGenericService <T> {
 	
-	T findById(long id) throws ErrorHandling;
+	T findById(Long id) throws ErrorHandling;
 	
-	void deleteById(long id) throws ErrorHandling;
+	void deleteById(Long id) throws ErrorHandling;
 	
 	T Update(T entity) throws ErrorHandling;
 	
-	List<T> findAll(long id) throws ErrorHandling;
+	List<T> findAll(Long id) throws ErrorHandling;
 	
 	T Add(T entity) throws Exception;
 	

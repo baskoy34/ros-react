@@ -24,7 +24,7 @@ public class DeskService implements IGenericService<DeskDto> {
     private DeskRepository deskRepository;
 
     @Override
-    public DeskDto findById(long id) {
+    public DeskDto findById(Long id) {
         Desk desk = deskRepository.findById(id).get();
         if (desk != null)
             return modelMapper.map(desk,DeskDto.class);
@@ -33,7 +33,7 @@ public class DeskService implements IGenericService<DeskDto> {
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         Desk desk = deskRepository.findById(id).get();
         if (desk != null){
             desk.setActive(false);
@@ -52,7 +52,7 @@ public class DeskService implements IGenericService<DeskDto> {
     }
 
     @Override
-    public List<DeskDto> findAll(long id) {
+    public List<DeskDto> findAll(Long id) {
         List<Desk> desks = deskRepository.findAllByStore(id);
         List<DeskDto> deskDtos = new ArrayList<DeskDto>();
 

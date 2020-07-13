@@ -1,12 +1,14 @@
 package ros.helpers;
 
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
 
 @Data
+@Component
 public class ErrorHandling extends Exception{
 
     private String error;
@@ -14,6 +16,10 @@ public class ErrorHandling extends Exception{
     private String location;
 
     private Date date;
+
+    public ErrorHandling(){
+
+    }
 
     public ErrorHandling(String error,String location){
         this.error = error;

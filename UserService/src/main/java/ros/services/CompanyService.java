@@ -17,13 +17,13 @@ public class CompanyService implements IGenericService<CompanyDto> {
     private CompanyRepository companyRepository;
 
     @Override
-    public CompanyDto findById(long id) {
+    public CompanyDto findById(Long id) {
         Company company = companyRepository.findById(id).get();
         return modelMapper.map(company,CompanyDto.class);
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
     }
 
     @Override
@@ -32,7 +32,7 @@ public class CompanyService implements IGenericService<CompanyDto> {
     }
 
     @Override
-    public List<CompanyDto> findAll(long id) {
+    public List<CompanyDto> findAll(Long id) {
         return null;
     }
 

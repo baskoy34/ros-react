@@ -21,7 +21,7 @@ public class StoreService implements IGenericService<StoreDto> {
     private StoreRepository storeRepository;
 
     @Override
-    public StoreDto findById(long id) {
+    public StoreDto findById(Long id) {
         Store store = storeRepository.findById(id).get();
         if(store != null)
             return modelMapper.map(storeRepository.findById(id).get(), StoreDto.class);
@@ -30,7 +30,7 @@ public class StoreService implements IGenericService<StoreDto> {
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         Store store = storeRepository.findById(id).get();
         if(store != null){
             store.setActive(false);
@@ -46,7 +46,7 @@ public class StoreService implements IGenericService<StoreDto> {
     }
 
     @Override
-    public List<StoreDto> findAll(long id) {
+    public List<StoreDto> findAll(Long id) {
         List<Store> stores = storeRepository.findByCompany(id);
         List<StoreDto> storeDtos = new ArrayList<StoreDto>();
         for (Store store:stores) {
