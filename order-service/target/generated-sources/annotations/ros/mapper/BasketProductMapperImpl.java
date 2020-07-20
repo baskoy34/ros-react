@@ -4,11 +4,12 @@ import javax.annotation.Generated;
 import javax.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Component;
 import ros.dtos.BasketProductDto;
+import ros.dtos.ProductDto;
 import ros.models.BasketProduct;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-07-20T15:42:24+0300",
+    date = "2020-07-20T23:39:50+0300",
     comments = "version: 1.3.0.Beta2, compiler: javac, environment: Java 1.8.0_201 (Oracle Corporation)"
 )
 @Component
@@ -29,14 +30,28 @@ public class BasketProductMapperImpl extends BasketProductMapper {
             throw new RuntimeException( e );
         }
         try {
-            basketProduct.setProduct( toProduct( basketProductDto.getProductId() ) );
+            Long id = basketProductDtoProductDtoId( basketProductDto );
+            if ( id != null ) {
+                basketProduct.setProduct( toProduct( id ) );
+            }
         }
         catch ( EntityNotFoundException e ) {
             throw new RuntimeException( e );
         }
-        basketProduct.setId( basketProductDto.getId() );
         basketProduct.setPiece( basketProductDto.getPiece() );
 
         return basketProduct;
+    }
+
+    private Long basketProductDtoProductDtoId(BasketProductDto basketProductDto) {
+        if ( basketProductDto == null ) {
+            return null;
+        }
+        ProductDto productDto = basketProductDto.getProductDto();
+        if ( productDto == null ) {
+            return null;
+        }
+        long id = productDto.getId();
+        return id;
     }
 }

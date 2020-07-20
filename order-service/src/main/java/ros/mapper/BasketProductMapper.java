@@ -26,8 +26,9 @@ public abstract class BasketProductMapper {
 
 
     @Mappings({
-            @Mapping(target = "product", source = "productId", qualifiedByName = "toProduct"),
-            @Mapping(target = "basket", source = "basketId",qualifiedByName = "toBasket")
+            @Mapping(target = "product", source = "productDto.id", qualifiedByName = "toProduct"),
+            @Mapping(target = "basket", source = "basketId",qualifiedByName = "toBasket"),
+            @Mapping(target = "id", ignore = true)
     })
     public abstract BasketProduct dtoToBasketProduct(BasketProductDto basketProductDto);
 

@@ -3,25 +3,26 @@ package ros.dtos;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-
+@ToString
 public class BasketProductDto {
 
 	private long id;
 
 	private Integer piece;
 
-	private Long productId;
+	private ProductDto productDto;
 
 	private Long basketId;
 
 	public BasketProductDto() {
 	}
 
-	public BasketProductDto(long id, Integer piece, Long productId, Long basketId) {
+	public BasketProductDto(long id, Integer piece, ProductDto productDto, Long basketId) {
 		this.id = id;
 		this.piece = piece;
-		this.productId = productId;
+		this.productDto = productDto;
 		this.basketId = basketId;
 	}
 
@@ -41,12 +42,12 @@ public class BasketProductDto {
 		this.piece = piece;
 	}
 
-	public Long getProductId() {
-		return productId;
+	public ProductDto getProductDto() {
+		return productDto;
 	}
 
-	public void setProductId(Long productId) {
-		this.productId = productId;
+	public void setProductDto(ProductDto productDto) {
+		this.productDto = productDto;
 	}
 
 	public Long getBasketId() {
