@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Basic e-commerce cart application built with React & Redux
 
 This simple application prototype shows how we can use React and Redux to build a friendly user experience with instant visual updates.
@@ -27,3 +28,6 @@ npm install
 npm start
 ```
 The application will start automatically in your browser on http://localhost:3000
+=======
+# ROS
+>>>>>>> cde9fa5d7d23155a8a96f5b3994251f16e26a78f
