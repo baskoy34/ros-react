@@ -1,0 +1,11 @@
+
+.deneme{
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    border: solid blue;
+    border-radius: 60%;
+    height: 14px;
+    width: 8px;
+    background:blue;
+}
