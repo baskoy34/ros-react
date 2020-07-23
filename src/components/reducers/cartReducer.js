@@ -1,5 +1,5 @@
 import { updateObject } from '../utility';
-import { GET_BASKET,ADD_TO_CART } from '../actions/action-types/cart-actions'
+import {REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,GET_BASKET,ADD_TO_CART } from '../actions/action-types/cart-actions'
 
 
 const initState = {    
@@ -19,6 +19,25 @@ const getBasket=(state,action)=>{
 
     } ); 
 }
+const addQuantity=(state,action)=>{
+    console.log(action.item)
+    return updateObject( state, {
+        addedItems:action.item,
+        totalPrice:action.totalPrice,
+        totalVat:action.totalvat,
+        itemCount:action.itemCount
+
+    } ); 
+}
+const removeItem=(state,action)=>{    
+    return updateObject( state, {
+        addedItems:action.item,
+        totalPrice:action.totalPrice,
+        totalVat:action.totalvat,
+        itemCount:action.itemCount
+
+    } ); 
+}
 const addToCart=(state,action)=>{    
     let updatedState={        
         totalPrice:action.response.totalPrice,
@@ -27,6 +46,17 @@ const addToCart=(state,action)=>{
 
     return updateObject(state,updatedState);
 }
+const subtractQuantity=(state,action)=>{
+    console.log(action.item)
+    return updateObject( state, {
+        addedItems:action.item,
+        totalPrice:action.totalPrice,
+        totalVat:action.totalvat,
+        itemCount:action.itemCount
+
+    } ); 
+}
+
 
 // const cartReducer= (state = initState,action)=>{   
 //     //INSIDE HOME COMPONENT
@@ -124,7 +154,10 @@ const reducer = ( state = initState,action ) => {
     switch ( action.type ) {
         case GET_BASKET : return getBasket( state, action );
         case ADD_TO_CART : return addToCart( state, action ); 
-        //case REMOVE_INGREDIENT: return removeIngredient(state, action);
+        case ADD_QUANTITY: return addQuantity(state, action);
+        case SUB_QUANTITY: return subtractQuantity(state, action);
+        case REMOVE_ITEM: return removeItem(state, action);
+        
         //case SET_INGREDIENTS: return setIngredients(state, action);    
         //case FETCH_INGREDIENTS_FAILED: return fetchIngredientsFailed(state, action);
         default: return state;

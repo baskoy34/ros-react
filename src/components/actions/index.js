@@ -6,5 +6,8 @@ export {
 
 export {
     getCartById,
-    addToCart, 
+    addToCart,
+    increaseQuantity,
+    decreaseQuantity ,
+    removeItem
 } from './cartActions';

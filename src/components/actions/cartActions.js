@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { GET_BASKET,ADD_TO_CART} from './action-types/cart-actions'
+import { REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,GET_BASKET,ADD_TO_CART} from './action-types/cart-actions'
 
 
 
@@ -11,6 +11,12 @@ export const getCart= (response)=>{
         totalPrice:response.totalPrice,
         totalVat:response.totalVat,
         itemCount:response.totalItem
+    }
+}
+export const addItem= (response)=>{
+    return{
+        type: ADD_TO_CART,
+        response:response
     }
 }
 
@@ -29,12 +35,89 @@ export const getCart= (response)=>{
 // }
 
 
-// export const addQuantity=(id)=>{
-//     return{
-//         type: ADD_QUANTITY,
-//         id
-//     }
-// }
+export const addQuantity=(response)=>{
+    return{
+        type: ADD_QUANTITY,
+        item:response.basketProducts,
+        totalPrice:response.totalPrice,
+        totalVat:response.totalVat,
+        itemCount:response.totalItem
+    }
+}
+export const removeBasketItem=(response)=>{
+    return{
+        type: REMOVE_ITEM,
+        item:response.basketProducts,
+        totalPrice:response.totalPrice,
+        totalVat:response.totalVat,
+        itemCount:response.totalItem
+    }
+}
+
+export const subtractQuantity=(response)=>{
+    return{
+        type: SUB_QUANTITY,
+        item:response.basketProducts,
+        totalPrice:response.totalPrice,
+        totalVat:response.totalVat,
+        itemCount:response.totalItem
+    }
+}
+export const increaseQuantity=(basketid,productid)=>{
+    var obj={
+        basketid:basketid,
+        productid:productid,
+        proceses:"increase"       
+     };
+    return dispatch=>{
+        axios.post('http://localhost:8082/basket/updateQuentityItem',obj)
+        .then(response=>{
+            console.log(response.data)
+            dispatch(addQuantity(response.data))
+        })
+        .catch(e=>{
+            console.log(e)
+        })
+    }
+}
+
+export const decreaseQuantity=(basketid,productid)=>{
+   
+        var obj={
+            basketid:basketid,
+            productid:productid,
+            proceses:"decrease"       
+         };
+        return dispatch=>{
+            axios.post('http://localhost:8082/basket/updateQuentityItem',obj)
+            .then(response=>{
+                console.log(response.data)
+                dispatch(subtractQuantity(response.data))
+            })
+            .catch(e=>{
+                console.log(e)
+            })
+        }
+    }
+    export const removeItem=(basketid,productid)=>{
+   
+        var obj={
+            basketid:basketid,
+            productid:productid               
+         };
+        return dispatch=>{
+            axios.post('http://localhost:8082/basket/removeItem',obj)
+            .then(response=>{
+                console.log(response.data)
+                dispatch(removeBasketItem(response.data))
+            })
+            .catch(e=>{
+                console.log(e)
+            })
+        }
+    }
+
+    
 
 export const getCartById=(basketId)=>{    
 
@@ -49,12 +132,7 @@ export const getCartById=(basketId)=>{
             });
     };
 }
-export const addItem= (response)=>{
-    return{
-        type: ADD_TO_CART,
-        response:response
-    }
-}
+
 
 export const addToCart=(id,basketId)=>{    
     var obj={

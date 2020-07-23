@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import Badges from './Badges.js';
-import MailIcon from '@material-ui/icons/Mail';
  class  Navbar extends Component {
 
      componentDidMount(){        
