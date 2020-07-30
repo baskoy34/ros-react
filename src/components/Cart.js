@@ -21,30 +21,45 @@ class Cart extends Component{
     handleSubtractQuantity = (basketid,productid)=>{
         this.props.subtractQuantity(basketid,productid);
     }
+    postOrder=()=>{
+        const errand={
+            basket:{
+                id:1,
+                basketProducts:this.props.items,
+                totalPrice:this.props.total,
+                totalItem:this.props.itemCount,
+                totalVat:this.props.totalVat
+            },
+            active:false,
+            orderstatus:"OPEN",
+            paymentstatus:false
+        }
+        this.props.postOrder(errand)
+
+    }
     render(){
               
         let addedItems = this.props.items.length ?
             (  
                 this.props.items.map(item=>{
-                    return(
-                       
+                    return(                       
                         <li className="collection-item avatar" key={item.id}>
                                     <div className="item-img"> 
-                                        <img src={item.productDto.image} alt={item.img} className=""/>
+                                        <img src={item.product.image} alt={item.img} className=""/>
                                     </div>
                                 
                                     <div className="item-desc">
-                                        <span className="title">{item.productDto.name}</span>
-                                        <p>{item.productDto.information}</p>
-                                        <p><b>Price: {item.productDto.price}$</b></p> 
+                                        <span className="title">{item.product.name}</span>
+                                        <p>{item.product.information}</p>
+                                        <p><b>Price: {item.product.price}$</b></p> 
                                         <p>
                                             <b>Quantity: {item.piece}</b> 
                                         </p>
                                         <div className="add-remove">
-                                            <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleAddQuantity(1,item.productDto.id)}}>arrow_drop_up</i></Link>
-                                            <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleSubtractQuantity(1,item.productDto.id)}}>arrow_drop_down</i></Link>
+                                            <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleAddQuantity(1,item.product.id)}}>arrow_drop_up</i></Link>
+                                            <Link to="/cart"><i className="material-icons" onClick={()=>{this.handleSubtractQuantity(1,item.product.id)}}>arrow_drop_down</i></Link>
                                         </div>
-                                        <button className="waves-effect waves-light btn pink remove" onClick={()=>{this.handleRemove(1,item.productDto.id)}}>Remove</button>
+                                        <button className="waves-effect waves-light btn pink remove" onClick={()=>{this.handleRemove(1,item.product.id)}}>Remove</button>
                                     </div>
                                     
                                 </li>
@@ -64,7 +79,7 @@ class Cart extends Component{
                         {addedItems}
                     </ul>
                 </div> 
-                <Recipe />          
+                <Recipe postOrder={this.postOrder}/>          
             </div>
        )
     }
@@ -73,7 +88,10 @@ class Cart extends Component{
 
 const mapStateToProps = (state)=>{
     return{
-        items: state.cart.addedItems,       
+        items: state.cart.addedItems,
+        total:state.cart.totalPrice,
+        itemCount:state.cart.itemCount,
+        totalVat:state.cart.totalVat    
     }
 }
 const mapDispatchToProps = (dispatch)=>{
@@ -81,8 +99,8 @@ const mapDispatchToProps = (dispatch)=>{
         getBasket: (id)=>{dispatch(actions.getCartById(id))},  
         addQuantity :(basketid,productid)=>{dispatch(actions.increaseQuantity(basketid,productid))} ,
         subtractQuantity :(basketid,productid)=>{dispatch(actions.decreaseQuantity(basketid,productid))} ,   
-        removeItem :(basketid,productid)=>{dispatch(actions.removeItem(basketid,productid))} ,
-        
+        removeItem :(basketid,productid)=>{dispatch(actions.removeItem(basketid,productid))} , 
+        postOrder :(order)=>{dispatch(actions.postOrder(order))}       
     }
 }
 export default connect(mapStateToProps,mapDispatchToProps)(Cart)

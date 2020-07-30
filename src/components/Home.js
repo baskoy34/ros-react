@@ -39,8 +39,7 @@ import * as actions from '../components/actions/index';
                 <h3 className="center">Our items</h3>
                 <div className="box">
                     {itemList}
-                </div>
-        <p>{this.props.totalItem}</p>
+                </div>       
             </div>
         )
     }

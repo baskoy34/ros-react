@@ -15,6 +15,7 @@ import Badges from './Badges.js';
                     <ul className="right">
                         <li><Link to="/">Shop</Link></li>
                         <li><Link to="/cart">My cart</Link></li>
+                        <li><Link to="/order">Siparişlerim</Link></li>
                         <li><Link to="/cart"><Badges value={this.props.totalItem}></Badges></Link></li>         
          <li>  Total Price {this.props.total}TL</li>
                     </ul>

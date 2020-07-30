@@ -5,6 +5,12 @@ export {
 } from './homeActions';
 
 export {
+    postOrder,
+    fetchOrders
+
+} from './orderAction';
+
+export {
     getCartById,
     addToCart,
     increaseQuantity,

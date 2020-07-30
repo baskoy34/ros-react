@@ -7,11 +7,13 @@ import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
 import homeReducer from './components/reducers/homeReducer';
 import cartReducer from './components/reducers/cartReducer';
+import OrderReducer from './components/reducers/orderReducer';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const rootReducer = combineReducers({
     cart: cartReducer,
+    order:OrderReducer,
     home: homeReducer
 });
 
